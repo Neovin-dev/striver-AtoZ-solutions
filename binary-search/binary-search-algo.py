@@ -1,7 +1,7 @@
+# Q1 Search X in sorted array
 def binarySearch(arr, targetValue):
     left = 0
     right = len(arr) - 1
-
     while left <= right: 
         mid = (left + right)//2;
 
